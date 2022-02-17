@@ -1,0 +1,4 @@
+<div>
+    <input type="text" #newTodo (keyup)="handleChange(newTodo.value)" />
+    <button (click)="save(); newTodo.value='';">Spara</button>
+</div>
